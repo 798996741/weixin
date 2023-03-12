@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="weixin:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/weixin_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="weixin/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="weixin" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="spring-data-redis-1.7.1.RELEASE" />
+          <element id="library" level="module" name="JUnit4" module-name="weixin" />
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
